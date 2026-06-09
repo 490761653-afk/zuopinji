@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>姜朝文 | 设计师作品集</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">JCW</span>
+        <span>姜朝文</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#packaging">包装设计</a>
+        <a href="#brand">品牌设计</a>
+        <a href="#commerce">电商平面</a>
+        <a href="#personal">个人作品</a>
+        <a href="#ai">AI 创作</a>
+      </nav>
+      <a class="header-cta" href="./assets/portfolio.pdf" target="_blank" rel="noreferrer">查看 PDF</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Portfolio 2026 / Visual System</p>
+          <h1 class="reveal">
+            <span class="title-line title-line-a">用<em>设计</em></span>
+            <span class="title-line title-line-b">建立<em>品牌记忆</em></span>
+          </h1>
+          <p class="hero-text reveal">
+            姜朝文作品集精选，覆盖平面设计、建模渲染、手绘插画、品牌设计、包装设计与 AI 创作。
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn primary magnetic" href="#packaging">浏览作品</a>
+            <a class="btn ghost magnetic" href="./assets/portfolio.pdf" target="_blank" rel="noreferrer">完整作品集</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="设计能力">
+        <div>
+          <span>包装设计</span>
+          <span>品牌设计</span>
+          <span>电商平面</span>
+          <span>个人作品</span>
+          <span>AI 创作</span>
+          <span>包装设计</span>
+          <span>品牌设计</span>
+          <span>电商平面</span>
+          <span>个人作品</span>
+          <span>AI 创作</span>
+        </div>
+      </section>
+
+      <div id="portfolioSections" aria-live="polite"></div>
+
+      <section class="about" id="about">
+        <div class="about-panel reveal">
+          <p class="eyebrow">Designer Profile</p>
+          <h2>从概念到落地，让视觉成为品牌资产。</h2>
+          <div class="stats">
+            <span><strong>65</strong>Selected works</span>
+            <span><strong>5</strong>Design fields</span>
+            <span><strong>1</strong>Visual system</span>
+          </div>
+        </div>
+        <a class="contact-card reveal magnetic" href="mailto:designer@example.com">
+          <span>Let’s Build</span>
+          <strong>联系 / 合作</strong>
+        </a>
+      </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="close" type="button" aria-label="关闭预览">×</button>
+      <div class="lightbox-media">
+        <img id="lightboxImage" alt="" />
+      </div>
+      <div class="lightbox-info">
+        <p id="lightboxCategory"></p>
+        <h3 id="lightboxTitle"></h3>
+        <a id="lightboxOpen" class="btn ghost" href="#" target="_blank" rel="noreferrer">打开图片</a>
+      </div>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
